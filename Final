@@ -1,2 +1,12 @@
 a = ["hello","2","world",":-)","my"]
 ##print (len(a))
+
+
+a = ["hello","2","world",":-)","my"]
+##print (len(a))
+
+def ThreeOrNothing (a):
+    for i in range(0,(len(a))):
+        print(a[i])
+    return(" ")
+print(ThreeOrNothing(a))
