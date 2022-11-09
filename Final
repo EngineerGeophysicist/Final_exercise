@@ -2,11 +2,11 @@ a = ["hello","2","world",":-)","my"]
 ##print (len(a))
 
 
-a = ["hello","2","world",":-)","my"]
-##print (len(a))
-
 def ThreeOrNothing (a):
+    b=[]
     for i in range(0,(len(a))):
-        print(a[i])
-    return(" ")
+        if (len(a[i]) <= 3):
+            b.append(a[i])
+    print (b)
+    return (" ")
 print(ThreeOrNothing(a))
