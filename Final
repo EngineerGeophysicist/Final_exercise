@@ -1,0 +1,2 @@
+a = ["hello","2","world",":-)","my"]
+##print (len(a))
